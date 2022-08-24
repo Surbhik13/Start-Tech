@@ -1,0 +1,15 @@
+select * from deliveries;
+
+select * from ipl_matches;
+
+select * from deliveries limit 20;
+
+select * from ipl_matches limit 20;
+
+select * from ipl_matches where date = '2013-05-02';
+
+select * from ipl_matches where result_margin >100;
+
+select * from ipl_matches where result = 'tie' order by date desc;
+
+select count (distinct city) from ipl_matches;
